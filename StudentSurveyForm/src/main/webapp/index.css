@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body,
+h1 {
+	font-family: Sofia, serif;
+	text-align: center;
+	text-decoration-color: black;
+	text-size-adjust: 30px;
+
+}
+
+.w3-container {
+	text-align: left;
+
+}
+
+.form-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	/* Add spacing between form elements */
+	margin-right: 575px;
+}
+
+.form-label {
+	flex: 1;
+	/* Distribute available space equally among labels */
+	text-align: right;
+	/* Align label text to the right */
+	margin-right: 10px;
+	/* Add some spacing between label and input */
+
+
+}
+
+.form-input {
+	flex: 2;
+	/* Distribute available space equally among input fields */
+}
+
+.checkbox-headcontainer {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.checkbox-container {
+	margin-left: 220px;
+	/* Add some space between checkboxes and the main label */
+}
+
+.select-lable {
+	margin-left: 220px;
+
+}
+
+/* Center the button container horizontally */
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* Add some space between the buttons */
+.w3-button {
+	margin: 0 5px;
+	/* Adjust the margin as needed */
+}
+
+.footer-container {
+	border-top: black;
+	display: flex;
+	justify-content: center;
+
+}
