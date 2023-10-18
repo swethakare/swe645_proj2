@@ -5,7 +5,7 @@ FROM httpd:latest
 WORKDIR /usr/local/apache2/htdocs
 
 # Copy your web application files into the container
-COPY StudentSurveyForm/src/main/webapp /usr/local/apache2/htdocs/
+COPY . /usr/local/apache2/htdocs/
 
 # Expose port 80 for the web server (Apache's default port)
 EXPOSE 80
